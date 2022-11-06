@@ -1,0 +1,22 @@
+.list {
+    color: #99a231;
+    font-family: "Kanit", sans-serif;
+    padding-left: 50px;
+
+}
+
+.list__item {
+    color: #99a231;
+    margin: 10px 0;
+    padding-left: 50px;
+    list-style-position: inside;
+}
+
+.orderedList {
+    list-style-type: lower-latin;
+}
+
+.unorderedList {
+    list-style-type: square;
+
+}

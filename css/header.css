@@ -1,0 +1,31 @@
+.header {
+    max-width: 40%;
+    color: #99a231;
+    background-color: #42430c;
+    border: 6px double #a9840b;
+    border-radius: 12%;
+    padding: 20px 30px 20px 30px;
+    margin: 30px auto;
+    outline: 4px dotted #260a3a;
+    outline-offset: 4px;
+    box-shadow: 23px 27px 24px -24px rgba(153, 162, 49, 1);
+    text-shadow: 4px 4px 10px rgba(174, 167, 150, 1);
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header__item {
+    margin: 15px 35%;
+     border-radius: 40%;
+     border-collapse: collapse;
+     outline: 2px solid #a9840b;
+     box-shadow: 8px 8px 24px 0px rgba(169, 132, 11, 1);
+ 
+ }
+
+ .header__buttonRemoveHeader {
+    color:#260a3a;
+    background-color: rgba(169, 132, 11, 1);
+    
+ } 

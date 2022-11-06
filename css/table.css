@@ -1,0 +1,33 @@
+.table {
+    width: 70%;
+    color: #99a231;
+    font-family: "Kanit", sans-serif;
+    border-collapse: collapse;
+    background-color: #42430c;
+    outline: 6px double #a9840b;
+    box-shadow: 8px 8px 23px -9px rgba(169, 132, 11, 1);
+    margin: auto;
+    margin-bottom: 60px;
+    overflow-x: auto;
+}
+
+.table__cell {
+    border: 3px solid #260a3a;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font: bold;
+
+}
+
+.table__header {
+    background-color: #542354d1;
+}
+
+.table__row:nth-child(even) {
+    background-color: #616211;
+}
+
+.table__row:hover {
+    background-color: #c6c921;
+}

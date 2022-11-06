@@ -1,0 +1,31 @@
+.navigation {
+    color: #98a130;
+    max-width: auto;
+    border: 6px double #a9840b;
+    border-radius: 6%;
+    border-bottom-left-radius: 0%;
+    outline: 2px inset #99a231;
+    margin: 60px 80px;
+    box-shadow: 8px 8px 23px -9px rgba(169, 132, 11, 1);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    list-style: inside
+}
+
+.navigation__link {
+    color: #98a130;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    margin: 15px, 0;
+
+}
+
+.navigation__link:hover {
+    color: #eefc4c;
+}
+
+

@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    color: #183c3f;
+    background-color: #a9840b;
+    border: 6px dotted #260a3a;
+    border-radius: 6%;
+    outline: 2px inset #260a3a;
+    box-shadow: 8px 8px 24px 0px rgba(169, 132, 11, 1);
+    padding: 8px;
+    margin: auto;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+.footer--dark {
+    background-color: rgb(179, 19, 136);
+    box-shadow: 8px 8px 23px -9px rgba(168, 11, 169, 1);
+}
+
+.footer__item:hover {
+   color:#37959d
+}
+
+.article__changeBackgroundButton {
+color:#260a3a;
+background-color: rgba(169, 132, 11, 1);
+}
