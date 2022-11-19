@@ -8,4 +8,6 @@
 
 https://github.com/olykka/homepage.git
 
-#### Exercise the first page of **Aleksandra**
+
+#### Opis:
+Exercise and practise the first page of **Aleksandra**

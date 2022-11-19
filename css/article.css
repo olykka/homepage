@@ -1,7 +1,7 @@
 .article {
     max-width: auto;
     color: #99a231;
-    background-color: #42430c;
+    background-image: url("../images/backroundwool23.jpg");
     border: 2px inset #260a3a;
     padding: 20px;
     margin: 28px 28px;
@@ -16,7 +16,7 @@
 
 .article__subHeader {
     color: #98a130;
-    background-color: #06241b;
+    background-image: url("../images/backroundwool23.jpg");
     max-width: auto;
     border-width: 6px;
     border-style: double;
