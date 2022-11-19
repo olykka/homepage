@@ -16,16 +16,19 @@
 }
 
 .header__item {
+    width: 200px;
+    height: 200px;
     margin: 15px 35%;
-     border-radius: 40%;
-     border-collapse: collapse;
-     outline: 2px solid #a9840b;
-     box-shadow: 8px 8px 24px 0px rgba(169, 132, 11, 1);
- 
- }
+    border-radius: 40%;
+    border-collapse: collapse;
+    outline: 2px solid #a9840b;
+    box-shadow: 8px 8px 24px 0px rgba(169, 132, 11, 1);
+    border: 10px double #260a3a; 
 
- .header__buttonRemoveHeader {
-    color:#260a3a;
+}
+
+.header__buttonRemoveHeader {
+    color: #260a3a;
     background-color: rgba(169, 132, 11, 1);
-    
- } 
+
+}
