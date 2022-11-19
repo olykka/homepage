@@ -35,8 +35,8 @@
 }
 
 
-.article__item {
-    color: #c5b139;
+.article__span {
+    color: #c6b139;
     background: #260a3a;
 
 }
@@ -45,3 +45,19 @@
     color: #8a3d9d;
     font-family: "Kanit", sans-serif;
 }
+
+.article__flex {
+    max-width: auto;
+    border: 4px double #c6b139;
+    display: flex;
+    flex-direction: row;
+} 
+
+.article__item {
+    width: 150px;
+    padding: 5px;
+    margin: 1px;
+    border: 2px solid #260a3a;
+    flex-grow: 1;
+}
+
