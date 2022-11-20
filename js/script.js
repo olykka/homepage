@@ -1,25 +1,41 @@
-console.log("Cześć i przepraszam dopiero zaczynam");
+{
+    const welcome = () => {
+        console.log("Cześć i przepraszam dopiero zaczynam");
+    }
 
-let header__buttonRemoveHeader = document.querySelector(".header__buttonRemoveHeader");
-let header = document.querySelector(".header");
+
+    const onChangeBacgroundClick = () => {
+        footer.classList.toggle("footer--dark");
+
+        if (footer.classList.contains("footer--dark")) {
+            themeName.innerText = "musztardowy";
+        } else {
+            themeName.innerText = "różowy";
+        }
+    };
+
+    welcome();
+
+    const article__changeBackgroundButton = document.querySelector(".article__changeBackgroundButton");
+    const footer = document.querySelector(".footer");
+    const themeName = document.querySelector(".themeName");
+
+    article__changeBackgroundButton.addEventListener("click", onChangeBacgroundClick);
+}
+
+const header__buttonRemoveHeader = document.querySelector(".header__buttonRemoveHeader");
+const header = document.querySelector(".header");
 
 header__buttonRemoveHeader.addEventListener("click", () => {
     header.remove();
 });
 
 
-let article__changeBackgroundButton = document.querySelector(".article__changeBackgroundButton");
-let footer = document.querySelector(".footer");
-let themeName = document.querySelector(".themeName");
 
-article__changeBackgroundButton.addEventListener("click", () => {
-    footer.classList.toggle("footer--dark");
 
-    if(footer.classList.contains("footer--dark")) {
-        themeName.innerText = "musztardowy";
-    } else {
-        themeName.innerText = "różowy";
-    }
-});
+{
+    const zmienna = 6;
+    console.log(zmienna);
 
+}
 
