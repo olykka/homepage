@@ -11,3 +11,4 @@ https://github.com/olykka/homepage.git
 
 #### Opis:
 Exercise and practise the first page of **Aleksandra**
+![card](images/share.png)
