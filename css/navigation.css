@@ -14,7 +14,7 @@
     list-style: inside
 }
 
-.navigation__link {
+.navigation__list {
     color: #98a130;
     text-decoration: none;
     list-style-type: none;
@@ -25,7 +25,7 @@
 
 }
 
-.navigation__link:hover {
+.navigation__list:hover {
     color: #eefc4c;
 }
 
