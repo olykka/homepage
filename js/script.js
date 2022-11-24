@@ -24,10 +24,10 @@
 }
 
 const header__buttonRemoveHeader = document.querySelector(".header__buttonRemoveHeader");
-const header = document.querySelector(".header");
+const header__header = document.querySelector(".header__header");
 
 header__buttonRemoveHeader.addEventListener("click", () => {
-    header.remove();
+    header__header.remove();
 });
 
 
