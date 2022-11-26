@@ -6,19 +6,18 @@
 
     const onChangeBackgroundClick = () => {
         footer.classList.toggle("footer--dark");
-
-        if (footer.classList.contains("footer--dark")) {
-            themeName.innerText = "musztardowy";
-        } else {
-            themeName.innerText = "różowy";
-        }
+        themeName.innerText = footer.classList.contains("footer--dark") ? "musztardowy" : "różowy";
     };
 
+        
+
+
     welcome();
+    const themeName = document.querySelector(".themeName");
 
     const article__changeBackgroundButton = document.querySelector(".article__changeBackgroundButton");
     const footer = document.querySelector(".footer");
-    const themeName = document.querySelector(".themeName");
+    
 
     article__changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
 }
@@ -30,12 +29,4 @@ header__buttonRemoveHeader.addEventListener("click", () => {
     header__header.remove();
 });
 
-
-
-
-{
-    const zmienna = 6;
-    console.log(zmienna);
-
-}
 

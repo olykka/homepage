@@ -24,4 +24,5 @@
 .article__changeBackgroundButton {
 color:#260a3a;
 background-color: rgba(169, 132, 11, 1);
+margin:10px;
 }
