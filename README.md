@@ -7,7 +7,7 @@ This is my very first site where I practice the basics of programming wit **YouC
 
 ## Demo:
 
-https://github.com/olykka/homepage.git
+https://olykka.github.io/homepage
 
 
 #### Opis:
