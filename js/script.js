@@ -4,7 +4,7 @@
     }
 
 
-    const onChangeBacgroundClick = () => {
+    const onChangeBackgroundClick = () => {
         footer.classList.toggle("footer--dark");
 
         if (footer.classList.contains("footer--dark")) {
@@ -20,7 +20,7 @@
     const footer = document.querySelector(".footer");
     const themeName = document.querySelector(".themeName");
 
-    article__changeBackgroundButton.addEventListener("click", onChangeBacgroundClick);
+    article__changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
 }
 
 const header__buttonRemoveHeader = document.querySelector(".header__buttonRemoveHeader");
