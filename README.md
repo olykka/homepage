@@ -9,6 +9,14 @@ This is my very first site where I practice the basics of programming wit **YouC
 
 https://olykka.github.io/homepage
 
+## Tech stack:
+- HTML
+- CSS
+- JavaScript
+- BEM
+- Markdown
+- Normalize
+
 
 #### Opis:
 Exercise and practise the first page of **Aleksandra**
