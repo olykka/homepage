@@ -12,8 +12,6 @@
     welcome();
 
     const article__changeBackgroundButton = document.querySelector(".article__changeBackgroundButton");
-
-
     article__changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
 }
 
